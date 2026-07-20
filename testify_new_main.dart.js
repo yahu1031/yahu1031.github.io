@@ -2141,10 +2141,10 @@ return A.co($async$ct,r)},
 iH(a){var s,r=B.a.E(a.w),q=r.length!==0?r:"testify",p=A.b(A.b(v.G.window).location)
 if(B.a.S(q,"http://")||B.a.S(q,"https://"))return B.b.gaL(q.split("?"))
 if(!B.a.S(q,"/"))q="/"+q
+if(B.a.ai(q,".html"))q=B.a.C(q,0,q.length-5)
 for(;;){s=q.length
 if(!(s>1&&B.a.ai(q,"/")))break
-q=B.a.C(q,0,s-1)}if(B.a.ai(q,".html"))q=B.a.C(q,0,s-5)
-return A.d(p.origin)+q},
+q=B.a.C(q,0,s-1)}return A.d(p.origin)+(q+"/")},
 dw(a,b){return A.i1(a,b)},
 i1(a,b){var s=0,r=A.cp(t.H),q=1,p=[],o,n
 var $async$dw=A.cr(function(c,d){if(c===1){p.push(d)
