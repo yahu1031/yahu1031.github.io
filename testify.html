@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    (function () {
+      var target = '/testify' + location.search + location.hash;
+      if (location.replace) location.replace(target);
+      else location.href = target;
+    })();
+  </script>
+  <meta http-equiv="refresh" content="0;url=/testify">
+</head>
+<body>
+  <a href="/testify">Continue to testimony form</a>
+</body>
+</html>

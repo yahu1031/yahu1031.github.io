@@ -7,7 +7,7 @@
   "person": {
     "name": "Yaswanth Kumar Rajavarapu",
     "role": "Senior Software Engineer",
-    "tagline": "I ship <strong>production Flutter</strong> with clean architecture and clear ownership — from brief to release as fast as the product needs. Built for real users, real stakes, and teams that move with precision.",
+    "tagline": "I ship <strong>production Flutter</strong> with clean architecture and clear ownership - from brief to release as fast as the product needs. Built for real users, real stakes, and teams that move with precision.",
     "heroEyebrow": "Flutter · Dart · Mobile",
     "heroHeadline": "Yaswanth Kumar R<br><em>Sr Software Engineer</em>",
     "heroCredit": null,
@@ -16,11 +16,12 @@
   "nav": [
     { "id": "about", "label": "About" },
     { "id": "work", "label": "Work" },
+    { "id": "testimonials", "label": "Testimonials" },
     { "id": "contact", "label": "Contact" }
   ],
   "workSection": {
     "title": "Work",
-    "subtitle": "I ship <strong>Flutter apps people actually use</strong> — high-stakes learning, live markets, privacy-by-design, wearables, and the hard problems in between. Real products, real users, <em>no portfolio fluff.</em>",
+    "subtitle": "I ship <strong>Flutter apps people actually use</strong> - high-stakes learning, live markets, privacy-by-design, wearables, and the hard problems in between. Real products, real users, <em>no portfolio fluff.</em>",
     "cta": "Browse projects"
   },
   "projectsSection": {
@@ -40,12 +41,12 @@
           "id": "nlearn",
           "appName": "nLearn",
           "tags": ["Flutter", "iOS", "Android", "Tablet"],
-          "copy": "Enterprise digital learning for Narayana — assessments, secure exams, offline learning, and rich content across mobile, tablet, and web.",
+          "copy": "Enterprise digital learning for Narayana - assessments, secure exams, offline learning, and rich content across mobile, tablet, and web.",
           "highlights": [
             "Led native-to-Flutter migration with a modular monorepo and clear feature ownership.",
             "Owned flutter_test_engine: secure exams, Isar offline sync, trusted timers, submission flows.",
             "Shared ui_components for HTML, LaTeX, and MathML via MathJax and flutter_math_fork.",
-            "Standards: Clean Architecture, BLoC, DI, docs — faster reviews and onboarding."
+            "Standards: Clean Architecture, BLoC, DI, docs - faster reviews and onboarding."
           ],
           "screen": {
             "background": "#ffffff",
@@ -65,7 +66,7 @@
           "id": "hdfc-sky",
           "appName": "HDFC Sky",
           "tags": ["Flutter", "Real-time trading"],
-          "copy": "Trading and investing across Indian equities, mutual funds, ETFs, IPOs, F&O, commodities, and US stocks — built for performance at scale.",
+          "copy": "Trading and investing across Indian equities, mutual funds, ETFs, IPOs, F&O, commodities, and US stocks - built for performance at scale.",
           "highlights": [
             "Watchlist, order window, dashboard, portfolio, order book, F&O scrip details, MTF, price alerts.",
             "REST integrations for live market data, portfolio updates, and order management.",
@@ -115,7 +116,7 @@
           "id": "corvette",
           "appName": "Corvette",
           "tags": ["Flutter", "Field ops"],
-          "copy": "Workflow platform for automotive resale — vehicle inspection, task assignment, and daily tracking before resale.",
+          "copy": "Workflow platform for automotive resale - vehicle inspection, task assignment, and daily tracking before resale.",
           "highlights": [
             "30–40 quality checkpoints per vehicle with status and progress tracking.",
             "Task assignment and end-of-day work status for field teams.",
@@ -130,7 +131,7 @@
           "id": "teja-sankya",
           "appName": "Teja & Sankya",
           "tags": ["Ionic", "Enterprise"],
-          "copy": "In-house enterprise apps for workforce and production ops — location, attendance, and operational monitoring.",
+          "copy": "In-house enterprise apps for workforce and production ops - location, attendance, and operational monitoring.",
           "highlights": [
             "Live location tracking and employee attendance modules.",
             "Production management features with REST sync.",
@@ -154,7 +155,7 @@
           "id": "atsign-app",
           "appName": "@platform",
           "tags": ["Flutter SDK", "Open source"],
-          "copy": "Privacy-first, decentralized platform — users own an @sign and encrypted datastore; apps sync peer-to-peer with end-to-end encryption.",
+          "copy": "Privacy-first, decentralized platform - users own an @sign and encrypted datastore; apps sync peer-to-peer with end-to-end encryption.",
           "highlights": [
             "Flutter apps and SDK packages on pub.dev/publishers/atsign.org.",
             "Encrypted key-value storage and real-time P2P data sharing.",
@@ -175,7 +176,7 @@
       "appName": "Cursor Mobile",
       "subtitle": "In progress",
       "tags": ["React Native", "Node", "Swift"],
-      "copy": "Companion app to talk to the Cursor AI editor without opening the IDE — React Native client, local Node middleware, and a Swift macOS menu bar bridge.",
+      "copy": "Companion app to talk to the Cursor AI editor without opening the IDE - React Native client, local Node middleware, and a Swift macOS menu bar bridge.",
       "highlights": [
         "Cross-device workflow between phone and Cursor on the Mac."
       ],
@@ -189,7 +190,7 @@
       "appName": "DilSe",
       "subtitle": "In progress",
       "tags": ["Wearable", "BLE", "AI"],
-      "copy": "Wearable healthcare platform — patch hardware, Flutter app, cloud, and AI insights for heart health and long-term trends.",
+      "copy": "Wearable healthcare platform - patch hardware, Flutter app, cloud, and AI insights for heart health and long-term trends.",
       "highlights": [
         "BLE protocol, offline-first sync, Clean Architecture + BLoC.",
         "Backend for pairing, ingestion, notifications, and analytics."
@@ -205,7 +206,7 @@
       "appName": "Passman",
       "subtitle": "Flutter mobile & web",
       "tags": ["Security"],
-      "copy": "Password-free vault using image-based master authentication — multiple tap points on an image instead of a traditional password, plus QR login on web.",
+      "copy": "Password-free vault using image-based master authentication - multiple tap points on an image instead of a traditional password, plus QR login on web.",
       "highlights": [
         "Encrypted sensitive storage across mobile and web."
       ],
@@ -219,7 +220,7 @@
       "appName": "Flutter-bot",
       "subtitle": "Open source · Pure Dart",
       "tags": ["Discord"],
-      "copy": "Discord bot in Dart — Flutter docs, package references, and dev resources inside your server.",
+      "copy": "Discord bot in Dart - Flutter docs, package references, and dev resources inside your server.",
       "highlights": [],
       "screen": {
         "background": "#ffffff",
@@ -231,7 +232,7 @@
       "appName": "at-cli",
       "subtitle": "Open source · Dart",
       "tags": ["CLI", "@platform"],
-      "copy": "Command-line utility for @platform developers — debug, test, and manage at_server and at_client with reusable automation.",
+      "copy": "Command-line utility for @platform developers - debug, test, and manage at_server and at_client with reusable automation.",
       "highlights": [],
       "screen": {
         "background": "#ffffff",
@@ -244,7 +245,7 @@
       "appName": "Serverpod",
       "subtitle": "Open source contributor",
       "tags": ["Backend", "Dart"],
-      "copy": "Full-stack backend framework for Flutter — scalable services and REST APIs entirely in Dart. Top contributor to the project.",
+      "copy": "Full-stack backend framework for Flutter - scalable services and REST APIs entirely in Dart. Top contributor to the project.",
       "highlights": [],
       "screen": {
         "background": "#ffffff",
@@ -273,7 +274,22 @@
     ],
     "community": {
       "title": "Flutter Hyderabad",
-      "body": "I <strong>lead Flutter Hyderabad</strong> — packed meetups, campus workshops, and sessions that get people shipping, not slide-watching. <strong>12+ talks</strong> on building better apps, staying secure, and going full-stack without the drama. Open source is how I pay the community back — and keep my own skills sharp."
+      "body": "I <strong>lead Flutter Hyderabad</strong> - packed meetups, campus workshops, and sessions that get people shipping, not slide-watching. <strong>12+ talks</strong> on building better apps, staying secure, and going full-stack without the drama. Open source is how I pay the community back - and keep my own skills sharp."
+    }
+  },
+  "testimonialsSection": {
+    "kicker": "From the room",
+    "title": "Testimonials",
+    "lead": "What collaborators say when the product has to ship - and stay up.",
+    "form": {
+      "enabled": true,
+      "projectId": "minnu-portfolio",
+      "title": "Leave a testimonial",
+      "lead": "Worked with Minnu? Drop a few lines - it shows up on this page for everyone.",
+      "submitLabel": "Submit testimonial",
+      "successMessage": "Thanks for your testimony.",
+      "shareLabel": "Copy form link",
+      "sharePath": "testify"
     }
   },
   "contactSection": {
