@@ -1,0 +1,290 @@
+{
+  "site": {
+    "brand": "Minnu",
+    "title": "Mr.Minnu",
+    "footer": "Portfolio built with Dart for the web"
+  },
+  "person": {
+    "name": "Yaswanth Kumar Rajavarapu",
+    "role": "Senior Software Engineer",
+    "tagline": "I ship <strong>production Flutter</strong> with clean architecture and clear ownership — from brief to release as fast as the product needs. Built for real users, real stakes, and teams that move with precision.",
+    "heroEyebrow": "Flutter · Dart · Mobile",
+    "heroHeadline": "Yaswanth Kumar R<br><em>Sr Software Engineer</em>",
+    "heroCredit": null,
+    "portrait": "assets/portrait.png"
+  },
+  "nav": [
+    { "id": "about", "label": "About" },
+    { "id": "work", "label": "Work" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "workSection": {
+    "title": "Work",
+    "subtitle": "I ship <strong>Flutter apps people actually use</strong> — high-stakes learning, live markets, privacy-by-design, wearables, and the hard problems in between. Real products, real users, <em>no portfolio fluff.</em>",
+    "cta": "Browse projects"
+  },
+  "projectsSection": {
+    "employerLabel": "Personal & open source",
+    "employerRole": "Side projects"
+  },
+  "experiences": [
+    {
+      "id": "greater-than",
+      "isCurrent": true,
+      "role": "Sr Software Engineer",
+      "company": "Greater Than Educational Technologies (GTET)",
+      "location": "Bangalore",
+      "period": "Nov 2024 - Present",
+      "apps": [
+        {
+          "id": "nlearn",
+          "appName": "nLearn",
+          "tags": ["Flutter", "iOS", "Android", "Tablet"],
+          "copy": "Enterprise digital learning for Narayana — assessments, secure exams, offline learning, and rich content across mobile, tablet, and web.",
+          "highlights": [
+            "Led native-to-Flutter migration with a modular monorepo and clear feature ownership.",
+            "Owned flutter_test_engine: secure exams, Isar offline sync, trusted timers, submission flows.",
+            "Shared ui_components for HTML, LaTeX, and MathML via MathJax and flutter_math_fork.",
+            "Standards: Clean Architecture, BLoC, DI, docs — faster reviews and onboarding."
+          ],
+          "screen": {
+            "background": "#ffffff",
+            "logo": "assets/logos/nlearn.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cloudtrade",
+      "role": "Senior Flutter Developer",
+      "company": "Cloudtrade Technology",
+      "location": "Bangalore",
+      "period": "Dec 2022 - Oct 2024",
+      "apps": [
+        {
+          "id": "hdfc-sky",
+          "appName": "HDFC Sky",
+          "tags": ["Flutter", "Real-time trading"],
+          "copy": "Trading and investing across Indian equities, mutual funds, ETFs, IPOs, F&O, commodities, and US stocks — built for performance at scale.",
+          "highlights": [
+            "Watchlist, order window, dashboard, portfolio, order book, F&O scrip details, MTF, price alerts.",
+            "REST integrations for live market data, portfolio updates, and order management.",
+            "Latency-sensitive UI tuned for production trading on iOS and Android.",
+            "Shipped at <a href=\"https://hdfcsky.com\" target=\"_blank\" rel=\"noopener noreferrer\">hdfcsky.com</a>."
+          ],
+          "screen": {
+            "background": "#ffffff",
+            "accent": "#dc2626",
+            "logo": "assets/logos/hdfc-sky.png"
+          }
+        },
+        {
+          "id": "shutter",
+          "appName": "Shutter",
+          "tags": ["Multi-flavour", "White-label"],
+          "copy": "White-label trading platform powering multiple brokerages from one Flutter codebase and multi-flavour architecture.",
+          "highlights": [
+            "Clients include <span class=\"client-inline\"><img src=\"assets/logos/basan.png\" alt=\"\" class=\"inline-brand-logo\"><strong>Basan</strong></span>, <span class=\"client-inline\"><img src=\"assets/logos/mansukh.png\" alt=\"\" class=\"inline-brand-logo\"><strong>Moneysukh</strong></span>, <span class=\"client-inline\"><img src=\"assets/logos/pace.png\" alt=\"\" class=\"inline-brand-logo\"><strong>Pace Trader</strong></span>, <span class=\"client-inline\"><img src=\"assets/logos/pentad.png\" alt=\"\" class=\"inline-brand-logo\"><strong>Pentad</strong></span>, <span class=\"client-inline\"><img src=\"assets/logos/jainam.png\" alt=\"\" class=\"inline-brand-logo\"><strong>Jainam</strong></span>, <span class=\"client-inline\"><img src=\"assets/logos/agnik.png\" alt=\"\" class=\"inline-brand-logo\"><strong>Agnik</strong></span>, and more from a shared stack.",
+            "Core trading modules reused with per-client customisation and deployment.",
+            "Worked with backend, QA, and product for production releases across flavours."
+          ],
+          "screen": {
+            "background": "#ffffff",
+            "logo": null,
+            "logos": [
+              "assets/logos/basan.png",
+              "assets/logos/jainam.png",
+              "assets/logos/agnik.png",
+              "assets/logos/pace.png",
+              "assets/logos/pentad.png",
+              "assets/logos/mansukh.png"
+            ],
+            "accent": "#334155"
+          }
+        }
+      ]
+    },
+    {
+      "id": "springlogix",
+      "role": "Mobile Application Developer",
+      "company": "SpringLogix",
+      "location": "Hyderabad",
+      "period": "Oct - Dec 2022",
+      "apps": [
+        {
+          "id": "corvette",
+          "appName": "Corvette",
+          "tags": ["Flutter", "Field ops"],
+          "copy": "Workflow platform for automotive resale — vehicle inspection, task assignment, and daily tracking before resale.",
+          "highlights": [
+            "30–40 quality checkpoints per vehicle with status and progress tracking.",
+            "Task assignment and end-of-day work status for field teams.",
+            "API sync for inspection data, tasks, and vehicle records."
+          ],
+          "screen": {
+            "background": "#ffffff",
+            "accent": "#374151"
+          }
+        },
+        {
+          "id": "teja-sankya",
+          "appName": "Teja & Sankya",
+          "tags": ["Ionic", "Enterprise"],
+          "copy": "In-house enterprise apps for workforce and production ops — location, attendance, and operational monitoring.",
+          "highlights": [
+            "Live location tracking and employee attendance modules.",
+            "Production management features with REST sync.",
+            "Stakeholder-driven feature delivery and workflow optimisation."
+          ],
+          "screen": {
+            "background": "#ffffff",
+            "accent": "#2563eb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "atsign",
+      "role": "Program Analyst · Flutter",
+      "company": "Shris InfoTech · Atsign",
+      "location": "Hyderabad",
+      "period": "Aug 2021 - Oct 2022",
+      "apps": [
+        {
+          "id": "atsign-app",
+          "appName": "@platform",
+          "tags": ["Flutter SDK", "Open source"],
+          "copy": "Privacy-first, decentralized platform — users own an @sign and encrypted datastore; apps sync peer-to-peer with end-to-end encryption.",
+          "highlights": [
+            "Flutter apps and SDK packages on pub.dev/publishers/atsign.org.",
+            "Encrypted key-value storage and real-time P2P data sharing.",
+            "Reusable components, docs, and contributions across open-source repos."
+          ],
+          "screen": {
+            "background": "#ffffff",
+            "accent": "#7c3aed",
+            "logo": "assets/logos/atsign.png"
+          }
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "cursor-mobile",
+      "appName": "Cursor Mobile",
+      "subtitle": "In progress",
+      "tags": ["React Native", "Node", "Swift"],
+      "copy": "Companion app to talk to the Cursor AI editor without opening the IDE — React Native client, local Node middleware, and a Swift macOS menu bar bridge.",
+      "highlights": [
+        "Cross-device workflow between phone and Cursor on the Mac."
+      ],
+      "screen": {
+        "background": "#ffffff",
+        "accent": "#111111"
+      }
+    },
+    {
+      "id": "dilse",
+      "appName": "DilSe",
+      "subtitle": "In progress",
+      "tags": ["Wearable", "BLE", "AI"],
+      "copy": "Wearable healthcare platform — patch hardware, Flutter app, cloud, and AI insights for heart health and long-term trends.",
+      "highlights": [
+        "BLE protocol, offline-first sync, Clean Architecture + BLoC.",
+        "Backend for pairing, ingestion, notifications, and analytics."
+      ],
+      "screen": {
+        "background": "#ffffff",
+        "accent": "#db2777",
+        "logo": "assets/logos/dilse4u.png"
+      }
+    },
+    {
+      "id": "passman",
+      "appName": "Passman",
+      "subtitle": "Flutter mobile & web",
+      "tags": ["Security"],
+      "copy": "Password-free vault using image-based master authentication — multiple tap points on an image instead of a traditional password, plus QR login on web.",
+      "highlights": [
+        "Encrypted sensitive storage across mobile and web."
+      ],
+      "screen": {
+        "background": "#ffffff",
+        "accent": "#0d9488"
+      }
+    },
+    {
+      "id": "flutter-bot",
+      "appName": "Flutter-bot",
+      "subtitle": "Open source · Pure Dart",
+      "tags": ["Discord"],
+      "copy": "Discord bot in Dart — Flutter docs, package references, and dev resources inside your server.",
+      "highlights": [],
+      "screen": {
+        "background": "#ffffff",
+        "accent": "#2563eb"
+      }
+    },
+    {
+      "id": "at-cli",
+      "appName": "at-cli",
+      "subtitle": "Open source · Dart",
+      "tags": ["CLI", "@platform"],
+      "copy": "Command-line utility for @platform developers — debug, test, and manage at_server and at_client with reusable automation.",
+      "highlights": [],
+      "screen": {
+        "background": "#ffffff",
+        "logo": "assets/logos/atsign.png",
+        "accent": "#7c3aed"
+      }
+    },
+    {
+      "id": "serverpod",
+      "appName": "Serverpod",
+      "subtitle": "Open source contributor",
+      "tags": ["Backend", "Dart"],
+      "copy": "Full-stack backend framework for Flutter — scalable services and REST APIs entirely in Dart. Top contributor to the project.",
+      "highlights": [],
+      "screen": {
+        "background": "#ffffff",
+        "accent": "#ca8a04",
+        "logo": "assets/logos/serverpod.png"
+      }
+    }
+  ],
+  "stackSection": {
+    "kicker": "How I build",
+    "title": "Stack & community",
+    "lead": "Production mobile with Clean Architecture, offline-first data, latency-aware UI, and analytics tooling when products need it.",
+    "items": [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Clean Architecture",
+      "Isar",
+      "REST",
+      "BLE",
+      "Serverpod",
+      "Firebase",
+      "CleverTap",
+      "AppsFlyer",
+      "CI/CD"
+    ],
+    "community": {
+      "title": "Flutter Hyderabad",
+      "body": "I <strong>lead Flutter Hyderabad</strong> — packed meetups, campus workshops, and sessions that get people shipping, not slide-watching. <strong>12+ talks</strong> on building better apps, staying secure, and going full-stack without the drama. Open source is how I pay the community back — and keep my own skills sharp."
+    }
+  },
+  "contactSection": {
+    "title": "Contact",
+    "lead": "Building a mobile product or need a senior Flutter engineer on your team?",
+    "email": "hi2minnu@gmail.com"
+  },
+  "links": [
+    { "label": "+91 7989152378", "href": "tel:+917989152378", "icon": "assets/icons/phone.svg" },
+    { "label": "minnu1031", "href": "https://twitter.com/minnu1031", "icon": "assets/icons/twitter.svg" },
+    { "label": "minnu-1031", "href": "https://www.linkedin.com/in/minnu-1031", "icon": "assets/icons/linkedin.svg" },
+    { "label": "yahu1031", "href": "https://github.com/yahu1031", "icon": "assets/icons/github.svg" }
+  ]
+}
